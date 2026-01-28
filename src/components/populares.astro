@@ -1,0 +1,170 @@
+<div class="contenido">
+    <div class="populares">
+        <h2>Populares cerca de ti</h2>
+    </div>
+    <div class="icon-populares">
+        <button class="redirect">
+            <div class="img-redirect">
+                <img src="imgs/istockphoto-1461350378-612x612.jpg" alt="" />
+            </div>
+            <div class="info-redirect">
+                <div class="info-text">
+                    <h3>Comida Rápida</h3>
+                    <p>Comidas rápidas</p>
+                </div>
+                <div class="info-icon">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+        </button>
+        <button class="redirect">
+            <div class="img-redirect">
+                <img
+                    class="img-center"
+                    src="imgs/istockphoto-104704117-612x612.jpg"
+                    alt=""
+                />
+            </div>
+            <div class="info-redirect">
+                <div class="info-text">
+                    <h3>Restaurantes</h3>
+                    <p>Restaurantes</p>
+                </div>
+                <div class="info-icon">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+        </button>
+        <button class="redirect">
+            <div class="img-redirect">
+                <img src="imgs/Supermercado-carrito.jpg" alt="" />
+            </div>
+            <div class="info-redirect">
+                <div class="info-text">
+                    <h3>Supermercados</h3>
+                    <p>Supermercados</p>
+                </div>
+                <div class="info-icon">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+        </button>
+        <button class="redirect">
+            <div class="img-redirect">
+                <img src="imgs/Supermercado-carrito.jpg" alt="" />
+            </div>
+            <div class="info-redirect">
+                <div class="info-text">
+                    <h3>Cebolleros</h3>
+                    <p>Perros calientes</p>
+                </div>
+                <div class="info-icon">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+        </button>
+        <button class="redirect">
+            <div class="img-redirect">
+                <img src="imgs/Supermercado-carrito.jpg" alt="" />
+            </div>
+            <div class="info-redirect">
+                <div class="info-text">
+                    <h3>Demoradas Dinamicas</h3>
+                    <p>Comidas demoradas</p>
+                </div>
+                <div class="info-icon">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+        </button>
+        <button class="redirect">
+            <div class="img-redirect">
+                <img src="imgs/Supermercado-carrito.jpg" alt="" />
+            </div>
+            <div class="info-redirect">
+                <div class="info-text">
+                    <h3>Gordo Burgues</h3>
+                    <p>Salchipapas</p>
+                </div>
+                <div class="info-icon">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+        </button>
+    </div>
+</div>
+
+<style>
+    .populares {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+    }
+    .populares h2 {
+        padding: 10px;
+    }
+    .icon-populares {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        max-width: 900px;
+        width: 100%;
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    .redirect {
+        width: 100%;
+        max-width: 280px;
+        height: auto;
+        background: linear-gradient(to bottom, #00c853, #b2ff59);
+        border: none;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 10px;
+        cursor: pointer;
+        transition:
+            transform 0.3s ease,
+            box-shadow 0.3s ease;
+    }
+
+    .redirect:hover {
+        transform: translateY(-10px) scale(1.02);
+        box-shadow: 0 15px 30px rgb(0, 0, 0, 0.1);
+    }
+
+    .info-redirect {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 20px;
+    }
+
+    .img-redirect {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+    .img-redirect img {
+        width: 100%;
+        height: auto;
+        border-radius: 20px;
+        max-width: 280px;
+        min-width: 280px;
+    }
+    .img-center {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+</style>
